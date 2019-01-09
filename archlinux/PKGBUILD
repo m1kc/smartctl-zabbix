@@ -1,7 +1,7 @@
 pkgname=zabbix-smartctl
 pkgver=r3.86b80d3
 pkgrel=1
-pkgdesc="A pacman wrapper with extended features and AUR support"
+pkgdesc="Template and script for monitoring HDD S.M.A.R.T data from Zabbix on Linux"
 arch=('any')
 url="https://github.com/m1kc/zabbix-smartctl"
 license=(GPL)
