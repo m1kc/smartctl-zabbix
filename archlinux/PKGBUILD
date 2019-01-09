@@ -6,7 +6,6 @@ arch=('any')
 url="https://github.com/m1kc/zabbix-smartctl"
 license=(GPL)
 depends=('zabbix-agent' 'smartmontools')
-depends=()
 optdepends=()
 source=("git+http://github.com/m1kc/zabbix-smartctl.git#branch=master")
 sha256sums=('SKIP')
