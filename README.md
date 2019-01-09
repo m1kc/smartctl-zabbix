@@ -38,7 +38,9 @@ $ sudo /etc/zabbix/scripts/smartctl-disks.sh
 {"data":[
 { "{#DEVNAME}":"sda", "{#DEVTYPE}":"sat" }
 ]}
+```
 
+```
 $ sudo /etc/zabbix/scripts/smartctl-disks.sh sat sda
 PASSED
  smartctl.info[sda,model_family] "Western Digital Blue"
