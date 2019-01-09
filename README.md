@@ -41,7 +41,7 @@ $ sudo /etc/zabbix/scripts/smartctl-disks.sh
 ```
 
 ```
-$ sudo /etc/zabbix/scripts/smartctl-disks.sh sat sda
+$ sudo /etc/zabbix/scripts/smartctl-disks.sh sda sat
 PASSED
  smartctl.info[sda,model_family] "Western Digital Blue"
  smartctl.info[sda,device_model] "WDC WD5000AAKX-00ERMA0"
