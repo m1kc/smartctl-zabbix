@@ -79,6 +79,8 @@ Make sure to restart the Zabbix agent daemon:
 $ sudo systemctl restart zabbix-agent
 ```
 
+As usual, you'll need to import Zabbix template and attach it to target hosts. Wait a while for disk discovery to kick in (or use force refresh), then wait a bit more for the actual data collection to start.
+
 
 Manual Installation
 -------------------
