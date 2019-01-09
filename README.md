@@ -73,6 +73,12 @@ $ sudo -u zabbix-agent /etc/zabbix/scripts/smartctl-disks.sh
 ]}
 ```
 
+Make sure to restart the Zabbix agent daemon:
+
+```
+$ sudo systemctl restart zabbix-agent
+```
+
 
 Manual Installation
 -------------------
