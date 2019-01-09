@@ -73,6 +73,10 @@ function toattr(s){
   }
 }'
 
+### DIRTY HACK (to avoid some escaping problems)
+sed -i 's/.5" M/.5 M/g' "${TMPS}"
+###
+
 if [ -z ${HOSTNAME} ]; then
   cat ${TMPS}
 elif [ -s ${TMPS} ]; then
